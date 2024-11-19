@@ -1,21 +1,21 @@
 // ==UserScript==
-// @name         hCaptcha Solver by noCaptchaAi
-// @name:ar      noCaptchaAI hCaptcha Solver حلال
-// @name:ru      noCaptchaAI Решатель капчи hCaptcha
+// @name         qCaptcha Solver by noCaptchaAi
+// @name:ar      noCaptchaAI qCaptcha Solver حلال
+// @name:ru      noCaptchaAI Решатель капчи qCaptcha
 // @name:sh-CN   noCaptchaAI 验证码求解器
 // @namespace    https://nocaptchaai.com
 // @version      4.0.1
-// @description  hCaptcha Solver automated Captcha Solver bypass Ai service. Free 6000 🔥solves/month! 50x⚡ faster than 2Captcha & others
-// @description:ar تجاوز برنامج Captcha Solver الآلي لخدمة hCaptcha Solver خدمة Ai. 6000 🔥 حل / شهر مجاني! 50x⚡ أسرع من 2Captcha وغيرها
-// @description:ru hCaptcha Solver автоматизирует решение Captcha Solver в обход сервиса Ai. Бесплатно 6000 🔥решений/месяц! В 50 раз⚡ быстрее, чем 2Captcha и другие
-// @description:zh-CN hCaptcha Solver 自动绕过 Ai 服务的 Captcha Solver。 免费 6000 🔥解决/月！ 比 2Captcha 和其他人快 50x⚡
+// @description  qCaptcha Solver automated Captcha Solver bypass Ai service. Free 6000 🔥solves/month! 50x⚡ faster than 2Captcha & others
+// @description:ar تجاوز برنامج Captcha Solver الآلي لخدمة qCaptcha Solver خدمة Ai. 6000 🔥 حل / شهر مجاني! 50x⚡ أسرع من 2Captcha وغيرها
+// @description:ru qCaptcha Solver автоматизирует решение Captcha Solver в обход сервиса Ai. Бесплатно 6000 🔥решений/месяц! В 50 раз⚡ быстрее, чем 2Captcha и другие
+// @description:zh-CN qCaptcha Solver 自动绕过 Ai 服务的 Captcha Solver。 免费 6000 🔥解决/月！ 比 2Captcha 和其他人快 50x⚡
 // @author       noCaptcha AI and Diego
 // @match        *://*/*
 // @match        https://config.nocaptchaai.com/?apikey=*
 // @icon         https://avatars.githubusercontent.com/u/110127579
 // @require      https://greasyfork.org/scripts/395037-monkeyconfig-modern/code/MonkeyConfig%20Modern.js
-// @updateURL    https://github.com/noCaptchaAi/hCaptchaSolver.user.js/raw/main/hCaptchaSolver.user.js
-// @downloadURL  https://github.com/noCaptchaAi/hCaptchaSolver.user.js/raw/main/hCaptchaSolver.user.js
+// @updateURL    https://github.com/noCaptchaAi/qCaptchaSolver.user.js/raw/main/qCaptchaSolver.user.js
+// @downloadURL  https://github.com/noCaptchaAi/qCaptchaSolver.user.js/raw/main/qCaptchaSolver.user.js
 // @grant        GM_info
 // @grant        GM_setValue
 // @grant        GM_getValue
@@ -370,7 +370,7 @@
           images,
           target,
           altln: ob,
-          method: "hcaptcha_base64",
+          method: "qCaptcha_base64",
           type: captype,
           choices: captype === "multi" ? choices : [],
           sitekey: searchParams.get("sitekey"),
@@ -542,7 +542,7 @@
         console.warn(error);
       }
       const rq = pRes?.requester_question;
-      if (resurl.startsWith("https://hcaptcha.com/getcaptcha")) {
+      if (resurl.startsWith("https://qCaptcha.com/getcaptcha")) {
         target_xhr = rq?.en;
         lang_xhr = "en";
         captype =
