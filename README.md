@@ -4,7 +4,6 @@
 <h1>qCaptcha Solver UserScript </h1>
 <p>Machine Learning Solution Powered by noCaptchaAi.com</p>
 
-
 <p>
 <a href="https://t.me/noCaptchaAi" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="https://discord.gg/E7FfzhZqzA" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
@@ -15,10 +14,7 @@
 </p>
 
 <p>
-<img src="https://user-images.githubusercontent.com/38348819/227741346-3dbf91ab-ffca-4bfa-a975-38d5cccc2ea3.png" width="250" />
-<img src="https://user-images.githubusercontent.com/38348819/227741358-cfed0050-879c-47e2-b0b6-54cecbab5a00.png" width="250" />
-<img src="https://user-images.githubusercontent.com/38348819/219877336-b1fb2388-d8bc-4ddc-b26b-fc9df36042df.png" width="250" />
-</p>
+<img src="https://github.com/user-attachments/assets/54aa7474-b06e-483a-b2ba-98a0e0c751b0" width="550" />
 <br />
 
 <h1><a target="_blank"  href="https://github.com/noCaptchaAi/qCaptchaSolver.user.js/raw/main/qCaptchaSolver.user.js">⚡ Click to Install</a></h1>
